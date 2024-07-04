@@ -1,5 +1,4 @@
 
-
 .header {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
@@ -21,6 +20,11 @@
 }
  
 .header__links-list-item_no-bullit {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.header__link_active {
   list-style-type: none;
   text-decoration: none;
 }
@@ -53,7 +57,7 @@
   text-underline-offset: 4px; 
 }
 
-.header__footer__address {
+.address__list {
   display: flex;
   list-style-type: none;
   font-family: "Raleway", sans-serif;
@@ -176,12 +180,17 @@
   flex-grow: 1;
   list-style: none;
   min-height: 563px;
-  width: 334px;
+  width: 334px; 
+}
+
+.lots__card-list-item a {
+  text-decoration: none;
 }
 
 .card__link {
   display: block;
   height: 100%;
+  text-decoration: none;
 }
 
 .card {
@@ -225,7 +234,6 @@
   z-index: 10;
   text-decoration: none; 
 }
-
 
 .lots__look-more-link {
  font-size: 20px;
